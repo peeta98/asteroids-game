@@ -28,7 +28,33 @@ As asteroids are hit, they will split into smaller ones, making it progressively
 git clone https://github.com/your-username/asteroid-game.git
 ```
 
-2. **Install dependencies**:
+3. **Navigate to the project directory**:
+
+```bash
+cd asteroid-game
+```
+
+3. **Create a virtual environment**:
+
+```bash
+python -m venv venv
+```
+
+4. **Activate the virtual environment**:
+
+* On macOS and Linux:
+
+```bash
+source venv/bin/activate
+```
+
+* On Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+5. **Install dependencies**:
 
 The game requires Python3 and Pygame. If you don't have Pygame installed, you can do so using pip:
 
@@ -36,10 +62,16 @@ The game requires Python3 and Pygame. If you don't have Pygame installed, you ca
 pip install pygame
 ```
 
-3. **Run the game**:
+6. **Run the game**:
    
 Once the dependencies are installed, run the game using
 
 ```bash
 python3 main_py
+```
+
+7. **Deactivate the virtual environment** (when you're done):
+
+```bash
+deactivate
 ```
