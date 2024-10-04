@@ -1,4 +1,4 @@
-# Asteroid Game
+# Asteroid Game 🚀
 
 A fun and simple asteroid shooting game built using Python and Pygame. The player controls a spaceship that spawns in the middle of the screen and must shoot down randomly generated asteroids. When shot, larger asteroids split into smaller ones that scatter in different directions.
 
